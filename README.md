@@ -7,6 +7,7 @@ Este repositorio contiene todo el material teórico, laboratorios y ejercicios p
 > Si eres nuevo/a en el mundo de la programación, hemos preparado algunas guías rápidas para ti:
 > * **[¿Qué es GitHub y por qué lo usamos?](Que_es_GitHub.md)**
 > * **[¿Qué es un Jupyter Notebook?](Que_es_Jupyter.md)**
+> * **[¿Qué es Markdown (y Markup)?](Que_es_Markdown.md)**
 > 
 > Te recomendamos leerlas antes de seguir con las instrucciones.
 

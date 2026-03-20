@@ -2,6 +2,10 @@
 
 Este repositorio contiene todo el material teórico, laboratorios y ejercicios para el curso. A continuación encontrarás las instrucciones para acceder a todo el material y mantenerlo sincronizado en tu computador durante el semestre.
 
+> [!NOTE]
+> **¿Eres nuevo(a) en el mundo de la programación y no sabes qué es GitHub?**  
+> Hemos preparado una guía introductoria rápida para ti. Revisa nuestro documento sobre **[¿Qué es GitHub y por qué lo usamos?](Que_es_GitHub.md)** antes de seguir con las instrucciones.
+
 ## Guía técnica: Cómo acceder al material del curso en tu entorno local
 
 ### Requisitos previos

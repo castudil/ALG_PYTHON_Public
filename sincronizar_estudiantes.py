@@ -22,14 +22,14 @@ def should_copy(item_path: Path) -> bool:
         if item_path.suffix in IGNORE_EXTS:
             return False
         
-        # OMITIR las soluciones siempre
-        if "SOL" in item_path.name.upper():
+        # OMITIR soluciones y pautas (nunca van al repo público)
+        if "SOL" in item_path.name.upper() or "PAUTA" in item_path.name.upper():
             return False
             
-        # Solo copiar archivos que explícitamente sean LAB o TEO
+        # Solo copiar archivos que explícitamente sean TEO, LAB o ASIG
         # O si son archivos base necesarios (como README.md)
         name_upper = item_path.name.upper()
-        if "LAB" in name_upper or "TEO" in name_upper or name_upper == "README.MD":
+        if "TEO" in name_upper or "LAB" in name_upper or "ASIG" in name_upper or name_upper == "README.MD":
             return True
 
         # Copiar archivos .py auxiliares (ej: unionfind.py) que el estudiante importa directamente

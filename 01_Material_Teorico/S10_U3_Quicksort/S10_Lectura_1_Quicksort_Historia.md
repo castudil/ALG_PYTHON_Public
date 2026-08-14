@@ -44,14 +44,20 @@ El paper original es notable por varias razones:
 
 El paper original de Hoare describe lo que hoy llamamos la **partición de Hoare** — con dos punteros que se mueven desde los extremos hacia el centro.
 
-Años después, **Nico Lomuto** (programador en los laboratorios DEC) describió una variante más simple con un solo puntero. Esta variante apareció en el influyente libro *Programming Pearls* de Jon Bentley (1986) y en los apuntes que eventualmente se convirtieron en el libro *Introduction to Algorithms* (CLRS).
+### Un esquema que verás en otros libros
 
-La ironía es que la partición de Lomuto, aunque es más fácil de entender y enseñar, es menos eficiente que la original de Hoare:
+Años después, **Nico Lomuto** (programador en los laboratorios DEC) describió una variante más simple, con un solo puntero que recorre el arreglo de izquierda a derecha y el pivote al final. Apareció en *Programming Pearls* de Jon Bentley (1986) y en los apuntes que se convirtieron en *Introduction to Algorithms* (CLRS), así que es la que encontrarás en buena parte de la bibliografía y en la mayoría de los tutoriales en línea.
 
-- **Lomuto:** en promedio hace ~n/2 intercambios por llamada
-- **Hoare:** en promedio hace ~n/6 intercambios por llamada
+**En este curso no la usamos.** Vale la pena saber que existe para que no te confundas al leer CLRS o buscar en internet, pero la razón de preferir el esquema de dos punteros es concreta:
 
-Para los estudiantes que aprenden algoritmos hoy, esto explica por qué se enseñan ambos: Lomuto para entender el concepto, Hoare para entender la eficiencia.
+| | Intercambios por llamada (promedio) |
+|---|---|
+| Un solo puntero (Lomuto) | ~n/2 |
+| Dos punteros (Hoare) | ~n/6 |
+
+Unas tres veces menos trabajo. La versión de un puntero es más corta de escribir, pero paga ese ahorro en cada ejecución.
+
+> ⚠️ **Al buscar ayuda en línea:** si el código que encuentras toma el pivote del **último** elemento y usa un solo índice que avanza, es el esquema de Lomuto. El nuestro toma el pivote del **primer** elemento y mueve dos punteros en direcciones opuestas. No los mezcles: las llamadas recursivas son distintas.
 
 ---
 

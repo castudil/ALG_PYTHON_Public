@@ -15,6 +15,11 @@ venv/
 .ipynb_checkpoints/
 *.ipynb_test
 
+# Documentos generados por pandoc (se rehacen con Syllabus_y_Plan/build.sh).
+# reference.docx sí se versiona: es la plantilla de estilos editable en Word.
+00_Gestion_Administrativa/Syllabus_y_Plan/*.docx
+!00_Gestion_Administrativa/Syllabus_y_Plan/reference.docx
+
 # IDEs
 .vscode/
 .idea/

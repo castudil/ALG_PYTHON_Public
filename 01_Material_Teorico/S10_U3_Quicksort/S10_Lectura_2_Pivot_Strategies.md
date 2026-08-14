@@ -74,7 +74,7 @@ Elegir un índice aleatorio en `[inicio, fin]` y usar ese elemento como pivot.
 ```python
 def pivot_aleatorio(arr, inicio, fin):
     idx = random.randint(inicio, fin)
-    arr[idx], arr[fin] = arr[fin], arr[idx]  # mover al fin para Lomuto
+    arr[idx], arr[lo] = arr[lo], arr[idx]  # mover al frente: la partición toma arr[lo]
     return arr[fin]
 ```
 
@@ -103,7 +103,7 @@ def mediana_de_tres(arr, inicio, fin):
         arr[inicio], arr[fin] = arr[fin], arr[inicio]
     if arr[mid] > arr[fin]:
         arr[mid], arr[fin] = arr[fin], arr[mid]
-    # arr[mid] es la mediana; ponerla en arr[fin] para Lomuto
+    # arr[mid] es la mediana; ponerla en arr[lo], que es de donde toma el pivote
     arr[mid], arr[fin] = arr[fin], arr[mid]
     return arr[fin]
 ```

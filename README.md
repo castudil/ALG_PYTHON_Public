@@ -11,6 +11,29 @@ Este repositorio contiene todo el material teórico, laboratorios y ejercicios p
 > 
 > Te recomendamos leerlas antes de seguir con las instrucciones.
 
+## Cómo está organizado el material
+
+El material teórico está en [`01_Material_Teorico/`](01_Material_Teorico/), con **una carpeta
+por semana del curso**, numeradas de forma correlativa:
+
+```text
+01_Material_Teorico/
+  S03_U1_Analisis_Complejidad/          <- semana 3, unidad 1
+    S03_ALG_TEO_Introduccion_Complejidad.ipynb    <- notebook de cátedra
+    S03_ALG_LAB_Introduccion_Complejidad.ipynb    <- guía de laboratorio
+  S05_U2_Pilas/                         <- semana 5, unidad 2
+  ...
+```
+
+| Sufijo | Qué es |
+| ------ | ------ |
+| `TEO` | Notebook de cátedra — el que se proyecta y ejecuta en clase |
+| `LAB` | Guía de laboratorio |
+| `ASIG` | Enunciado de tarea evaluada |
+| `SOL` | Solución de referencia (se libera después de la entrega) |
+
+El índice completo está en [`01_Material_Teorico/MANIFIESTO.md`](01_Material_Teorico/MANIFIESTO.md).
+
 ## Guía técnica: Cómo acceder al material del curso en tu entorno local
 
 ### Requisitos previos

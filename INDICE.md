@@ -102,7 +102,6 @@ correlativa. El número de carpeta es la posición en el programa, no la fecha.
 ## Semana 12 · Unidad 3 — Heapsort
 
 - **Cátedra:** [Heapsort](01_Material_Teorico/S12_U3_Heapsort/S12_ALG_TEO_Heapsort.ipynb)
-- **Laboratorio:** [Heapsort](01_Material_Teorico/S12_U3_Heapsort/S12_ALG_LAB_Heapsort.ipynb)
 
 ## Semana 13 · Unidad 4 — Symbol Tables
 
@@ -117,12 +116,11 @@ correlativa. El número de carpeta es la posición en el programa, no la fecha.
 
 ## Semana 15 · Unidad 4 — Arboles Balanceados
 
-- **Cátedra:** [Arboles Balanceados](01_Material_Teorico/S15_U4_Arboles_Balanceados/S15_ALG_TEO_Arboles_Balanceados.ipynb)
-- **Laboratorio:** [Arboles Balanceados](01_Material_Teorico/S15_U4_Arboles_Balanceados/S15_ALG_LAB_Arboles_Balanceados.ipynb)
+- *(material en preparación)*
 
 ## Semana 16 · Unidad 4 — Tablas Hash
 
-- **Cátedra:** [Tablas Hash](01_Material_Teorico/S16_U4_Tablas_Hash/S16_ALG_TEO_Tablas_Hash.ipynb)
+- *(material en preparación)*
 
 ---
 

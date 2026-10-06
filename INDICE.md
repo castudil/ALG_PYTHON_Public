@@ -116,7 +116,8 @@ correlativa. El número de carpeta es la posición en el programa, no la fecha.
 
 ## Semana 15 · Unidad 4 — Arboles Balanceados
 
-- *(material en preparación)*
+- **Cátedra:** [Árboles 2-3 y rojo-negro](01_Material_Teorico/S15_U4_Arboles_Balanceados/S15_ALG_TEO_Arboles_Balanceados.ipynb)
+- **Laboratorio:** [Árboles balanceados](01_Material_Teorico/S15_U4_Arboles_Balanceados/S15_ALG_LAB_Arboles_Balanceados.ipynb)
 
 ## Semana 16 · Unidad 4 — Tablas Hash
 

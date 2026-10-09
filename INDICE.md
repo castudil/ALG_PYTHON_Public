@@ -121,7 +121,7 @@ correlativa. El número de carpeta es la posición en el programa, no la fecha.
 
 ## Semana 16 · Unidad 4 — Tablas Hash
 
-- *(material en preparación)*
+- **Cátedra:** [Tablas Hash](01_Material_Teorico/S16_U4_Tablas_Hash/S16_ALG_TEO_Tablas_Hash.ipynb)
 
 ---
 

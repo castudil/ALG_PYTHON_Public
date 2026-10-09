@@ -23,3 +23,6 @@ venv/
 # IDEs
 .vscode/
 .idea/
+
+# Actas de notas que generan las pautas: datos de estudiantes, nunca a git
+acta_*.csv

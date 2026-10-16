@@ -102,6 +102,7 @@ correlativa. El número de carpeta es la posición en el programa, no la fecha.
 ## Semana 12 · Unidad 3 — Heapsort
 
 - **Cátedra:** [Heapsort](01_Material_Teorico/S12_U3_Heapsort/S12_ALG_TEO_Heapsort.ipynb)
+- **Laboratorio:** [Heapsort](01_Material_Teorico/S12_U3_Heapsort/S12_ALG_LAB_Heapsort.ipynb)
 
 ## Semana 13 · Unidad 4 — Symbol Tables
 
